@@ -19,12 +19,12 @@ export default function Footer() {
           <p className={styles.p}> Travaux de couverture professionnel</p>          
         </div>
         <ul className={styles.ul}>
-          <Link href="/couverture" className={styles.li}>Couverture</Link>
-          <Link href="/zinguerie" className={styles.li}>Zinguerie</Link>
-          <Link href="/nettoyage" className={styles.li}>Nettoyage</Link>
-          <Link href="/reparations" className={styles.li}>Réparations</Link>
-          <Link href="/fuites" className={styles.li}>Fuites</Link>
-          <Link href="/charpente" className={styles.li}>Charpente</Link>
+          <Link href="/peinture-interieure" className={styles.li}>Intérieure</Link>
+          <Link href="/peinture-exterieure" className={styles.li}>Exterieure</Link>
+          <Link href="/revetement" className={styles.li}>Revêtements</Link>
+          <Link href="/finitions" className={styles.li}>Préparation</Link>
+          <Link href="/decoration" className={styles.li}>Décoration</Link>
+          <Link href="/entretien" className={styles.li}>Rénovation</Link>
         </ul>
       </section>
       <section className={styles.mentions}>

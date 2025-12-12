@@ -3,7 +3,7 @@ import SectionBanner from '@/components/SectionBanner/SectionBanner'
 import Menu from '@/components/Menu/Menu'
 
 export const metadata = {
-  title: "Rénovation et entretien à Perpignan | Rafraîchissement & remise en état",
+  title: "Rénovation et entretien à Perpignan | Rafraîchissement et remise en état",
   description:
     "Rénovation complète, entretien des surfaces, reprise de peintures, traitement des matériaux et remise à neuf. Interventions soignées et durables dans tout le 66.",
 };

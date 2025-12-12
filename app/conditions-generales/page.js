@@ -9,7 +9,7 @@ export default function ConditionsGenerales() {
       <section className={styles.section}>
         <h2>Objet</h2>
         <p>
-          Les présentes conditions régissent les services de couverture proposés par Couverture Catalane. 
+          Les présentes conditions régissent les services de peinture proposés par Peinture Catalane. 
           Toute commande implique l’acceptation pleine et entière de ces conditions.
         </p>
       </section>
@@ -17,9 +17,9 @@ export default function ConditionsGenerales() {
       <section className={styles.section}>
         <h2>Services proposés</h2>
         <p>
-          Nos prestations incluent la pose, rénovation, réparation de toitures, 
-          zinguerie, gouttières, charpente et traitement hydrofuge. 
-          Chaque intervention est adaptée aux besoins et à la configuration du chantier.
+          Nos prestations incluent la peinture intérieure et extérieure, la décoration, 
+          la préparation des supports, les finitions, la rénovation et l’entretien des surfaces. 
+          Chaque intervention est adaptée aux besoins spécifiques et à l’état des supports.
         </p>
       </section>
 
@@ -42,18 +42,19 @@ export default function ConditionsGenerales() {
       <section className={styles.section}>
         <h2>Responsabilité</h2>
         <p>
-          Couverture Catalane met tout en œuvre pour garantir un service de qualité, 
-          mais ne peut être tenu responsable des dommages résultant de situations exceptionnelles, 
-          de matériaux défectueux ou d’un défaut de collaboration du client.
+          Peinture Catalane met tout en œuvre pour garantir un service de qualité, 
+          mais ne peut être tenue responsable des dommages résultant de situations exceptionnelles, 
+          de supports défectueux ou d’un défaut de collaboration du client.
         </p>
       </section>
 
       <section className={styles.section}>
         <h2>Litiges</h2>
         <p>
-          En cas de litige, la juridiction compétente est celle du siège social de Couverture Catalane.
+          En cas de litige, la juridiction compétente est celle du siège social de Peinture Catalane.
         </p>
       </section>
     </div>
   );
 }
+

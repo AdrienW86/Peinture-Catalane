@@ -42,6 +42,7 @@
     max-width: 500px;
     margin: 30px auto;
     border-radius: 10px;
+    
 }
 
 .input {
@@ -54,6 +55,7 @@
 
 .input::placeholder {
     color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .submit {

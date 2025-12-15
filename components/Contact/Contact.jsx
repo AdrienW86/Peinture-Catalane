@@ -58,10 +58,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className={styles.container}>
-      
+    <div className={styles.container}>      
       <h2 className={styles.title}>Contactez-nous</h2>
-
       <p className={styles.p}> 
        Demandez votre devis gratuit ou posez-nous vos questions. 
         Notre équipe se fera un plaisir de vous répondre dans les plus brefs délais.

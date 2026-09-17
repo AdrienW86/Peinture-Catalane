@@ -27,9 +27,9 @@ export default function Footer() {
   return (
     <footer className="bg-[#080b0c] text-[#f3f0e9]">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        {/* Partie principale */}
+        {/* PARTIE PRINCIPALE */}
         <div className="grid gap-14 border-b border-white/10 py-16 md:grid-cols-12 md:gap-8 md:py-20">
-          {/* Marque */}
+          {/* MARQUE */}
           <div className="md:col-span-5">
             <Link
               href="/"
@@ -47,11 +47,13 @@ export default function Footer() {
                   stroke="currentColor"
                   strokeWidth="1.5"
                 />
+
                 <path
                   d="M15 35L24 21L33 35"
                   stroke="currentColor"
                   strokeWidth="1.5"
                 />
+
                 <path
                   d="M24 9V21"
                   stroke="currentColor"
@@ -72,17 +74,20 @@ export default function Footer() {
 
             <p className="mt-7 max-w-sm text-sm leading-7 text-[#858781]">
               Travaux de peinture intérieure, extérieure et rénovation à
-              Perpignan et ses alentours.
+              Perpignan et dans les Pyrénées-Orientales.
             </p>
           </div>
 
-          {/* Navigation */}
+          {/* NAVIGATION */}
           <div className="md:col-span-2">
             <p className="text-[9px] font-semibold uppercase tracking-[0.25em] text-[#c9a66b]">
               Navigation
             </p>
 
-            <nav className="mt-6 flex flex-col gap-4">
+            <nav
+              aria-label="Navigation du pied de page"
+              className="mt-6 flex flex-col gap-4"
+            >
               {navigation.map((item) => (
                 <Link
                   key={item.href}
@@ -95,13 +100,16 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Prestations */}
+          {/* PRESTATIONS */}
           <div className="md:col-span-3">
             <p className="text-[9px] font-semibold uppercase tracking-[0.25em] text-[#c9a66b]">
               Prestations
             </p>
 
-            <nav className="mt-6 flex flex-col gap-4">
+            <nav
+              aria-label="Prestations"
+              className="mt-6 flex flex-col gap-4"
+            >
               {services.map((service) => (
                 <Link
                   key={service.href}
@@ -114,7 +122,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Localisation */}
+          {/* SECTEUR */}
           <div className="md:col-span-2">
             <p className="text-[9px] font-semibold uppercase tracking-[0.25em] text-[#c9a66b]">
               Secteur
@@ -128,24 +136,28 @@ export default function Footer() {
 
             <Link
               href="/contact"
-              className="group mt-6 inline-flex items-center gap-3 text-xs font-medium text-[#f3f0e9]"
+              className="group mt-6 inline-flex items-center gap-3 text-xs font-medium text-[#f3f0e9] transition-colors hover:text-[#c9a66b]"
             >
               Nous contacter
-              <span className="transition-transform group-hover:translate-x-1">
+
+              <span
+                aria-hidden="true"
+                className="transition-transform duration-300 group-hover:translate-x-1"
+              >
                 →
               </span>
             </Link>
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="flex flex-col gap-5 py-7 text-[10px] text-[#666963] sm:flex-row sm:items-center sm:justify-between">
+        {/* BAS DE PAGE */}
+        <div className="flex flex-col gap-5 py-7 text-[10px] text-[#666963] lg:flex-row lg:items-center lg:justify-between">
           <p>
             © {new Date().getFullYear()} Peinture Catalane. Tous droits
             réservés.
           </p>
 
-          <div className="flex gap-6">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
             <Link
               href="/mentions-legales"
               className="transition-colors hover:text-[#aaa8a2]"
@@ -159,6 +171,29 @@ export default function Footer() {
             >
               Confidentialité
             </Link>
+
+            <span
+              aria-hidden="true"
+              className="hidden h-3 w-px bg-white/10 sm:block"
+            />
+
+            <a
+              href="https://code-v.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group transition-colors hover:text-[#aaa8a2]"
+            >
+              Site conçu par{" "}
+              <span className="text-[#8d8f89] transition-colors group-hover:text-[#c9a66b]">
+                Code-V
+              </span>
+              <span
+                aria-hidden="true"
+                className="ml-1.5 inline-block transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+              >
+                ↗
+              </span>
+            </a>
           </div>
         </div>
       </div>

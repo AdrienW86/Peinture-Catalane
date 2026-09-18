@@ -4,6 +4,7 @@ const navigation = [
   { label: "Accueil", href: "/" },
   { label: "Prestations", href: "/prestations" },
   { label: "Réalisations", href: "/realisations" },
+  { label: "Notre secteur", href: "/peinture-perpignan" },
   { label: "Avis", href: "/#avis" },
   { label: "Contact", href: "/contact" },
 ];
@@ -21,6 +22,16 @@ const services = [
     label: "Ravalement de façade",
     href: "/prestations/ravalement-facade",
   },
+];
+
+const interventionAreas = [
+  "Pia",
+  "Canet-en-Roussillon",
+  "Saint-Estève",
+  "Cabestany",
+  "Rivesaltes",
+  "Thuir",
+  "Argelès-sur-Mer",
 ];
 
 export default function Footer() {
@@ -73,8 +84,9 @@ export default function Footer() {
             </Link>
 
             <p className="mt-7 max-w-sm text-sm leading-7 text-[#858781]">
-              Travaux de peinture intérieure, extérieure et rénovation à
-              Perpignan et dans les Pyrénées-Orientales.
+              Travaux de peinture intérieure, extérieure, rénovation et
+              ravalement de façade à Perpignan et dans l&apos;ensemble des
+              Pyrénées-Orientales.
             </p>
           </div>
 
@@ -122,21 +134,44 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* SECTEUR */}
+          {/* ZONE D'INTERVENTION */}
           <div className="md:col-span-2">
             <p className="text-[9px] font-semibold uppercase tracking-[0.25em] text-[#c9a66b]">
-              Secteur
+              Zone d&apos;intervention
             </p>
 
-            <p className="mt-6 text-sm leading-7 text-[#aaa8a2]">
-              Perpignan
+            <p className="mt-6 text-sm leading-6 text-[#aaa8a2]">
+              Tout le département des
               <br />
-              Pyrénées-Orientales
+              <span className="text-[#f3f0e9]">
+                Pyrénées-Orientales (66)
+              </span>
             </p>
+
+            <div className="mt-5 flex flex-col gap-2.5 text-xs text-[#858781]">
+              <Link
+                href="/peinture-perpignan"
+                className="w-fit transition-colors hover:text-[#c9a66b]"
+              >
+                Perpignan
+              </Link>
+
+              {interventionAreas.map((area) => (
+                <span key={area}>{area}</span>
+              ))}
+            </div>
+
+            <a
+              href="tel:+33743260451"
+              aria-label="Appeler Peinture Occitane au 07 43 26 04 51"
+              className="mt-6 block w-fit font-serif text-lg text-[#f3f0e9] transition-colors hover:text-[#c9a66b]"
+            >
+              07 43 26 04 51
+            </a>
 
             <Link
               href="/contact"
-              className="group mt-6 inline-flex items-center gap-3 text-xs font-medium text-[#f3f0e9] transition-colors hover:text-[#c9a66b]"
+              className="group mt-5 inline-flex items-center gap-3 text-xs font-medium text-[#f3f0e9] transition-colors hover:text-[#c9a66b]"
             >
               Nous contacter
 
@@ -187,6 +222,7 @@ export default function Footer() {
               <span className="text-[#8d8f89] transition-colors group-hover:text-[#c9a66b]">
                 Code-V
               </span>
+
               <span
                 aria-hidden="true"
                 className="ml-1.5 inline-block transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"

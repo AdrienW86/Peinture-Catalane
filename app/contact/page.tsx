@@ -95,6 +95,35 @@ export default function ContactPage() {
                   permettront de mieux comprendre votre projet.
                 </p>
 
+                <div className="mt-10 border-t border-black/10 pt-8">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8b8982]">
+                    Vous préférez nous appeler ?
+                  </p>
+
+                  <a
+                    href="tel:+33743260451"
+                    aria-label="Appeler Peinture Occitane au 07 43 26 04 51"
+                    className="group mt-5 inline-flex items-center gap-5"
+                  >
+                    <span className="font-serif text-2xl text-[#111719] transition-colors duration-300 group-hover:text-[#9f7b43] sm:text-3xl">
+                      07 43 26 04 51
+                    </span>
+
+                    <span
+                      aria-hidden="true"
+                      className="text-[#9f7b43] transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      →
+                    </span>
+                  </a>
+
+                  <p className="mt-3 max-w-xs text-xs leading-6 text-[#777871]">
+                    Un appel suffit pour présenter rapidement votre projet.
+                  </p>
+                </div>
+
+                <div className="mt-10 border-t border-black/10 pt-8"></div>
+
                 <div className="mt-12 border-t border-black/10 pt-8">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8b8982]">
                     Types de projets

@@ -151,25 +151,42 @@ export default function Services() {
         </div>
 
         {/* CTA bas */}
-        <div className="flex flex-col gap-7 pt-12 md:flex-row md:items-center md:justify-between md:pt-16">
-          <p className="font-serif text-2xl md:text-3xl">
-            Vous avez un projet à nous confier ?
-          </p>
+        {/* CTA bas */}
+<div className="flex flex-col gap-8 pt-12 md:flex-row md:items-end md:justify-between md:pt-16">
+  <div>
+    <p className="font-serif text-2xl md:text-3xl">
+      Vous avez un projet à nous confier ?
+    </p>
 
-          <Link
-            href="/contact"
-            className="group inline-flex w-fit items-center gap-5 bg-[#111719] px-7 py-4 text-sm font-medium text-[#f3f0e9] transition-colors duration-300 hover:bg-[#9f7b43]"
-          >
-            Demander un devis
+    <Link
+      href="/peinture-perpignan"
+      className="group mt-5 inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#9f7b43] transition-colors hover:text-[#111719]"
+    >
+      Nos interventions à Perpignan
 
-            <span
-              aria-hidden="true"
-              className="transition-transform duration-300 group-hover:translate-x-1"
-            >
-              →
-            </span>
-          </Link>
-        </div>
+      <span
+        aria-hidden="true"
+        className="transition-transform duration-300 group-hover:translate-x-1"
+      >
+        →
+      </span>
+    </Link>
+  </div>
+
+  <Link
+    href="/contact"
+    className="group inline-flex w-fit items-center gap-5 bg-[#111719] px-7 py-4 text-sm font-medium text-[#f3f0e9] transition-colors duration-300 hover:bg-[#9f7b43]"
+  >
+    Demander un devis
+
+    <span
+      aria-hidden="true"
+      className="transition-transform duration-300 group-hover:translate-x-1"
+    >
+      →
+    </span>
+  </Link>
+</div>
       </div>
     </section>
   );

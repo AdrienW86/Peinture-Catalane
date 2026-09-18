@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import LocalBusinessJsonLd from "@/components/LocalBusinessJsonLd";
 import Header from "@/components/Header";
 import CallButton from "@/components/CallButton";
 import Footer from "@/components/Footer";
@@ -49,6 +49,7 @@ export default function RootLayout({
       className={`${inter.variable} ${cormorant.variable}`}
     >
       <body>
+        <LocalBusinessJsonLd />
         <Header />
 
         {children}

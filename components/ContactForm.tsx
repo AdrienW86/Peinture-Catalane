@@ -296,8 +296,15 @@ export default function ContactForm() {
       {/* ENVOI */}
       <div className="flex flex-col gap-7 pt-10 sm:flex-row sm:items-center sm:justify-between">
         <p className="max-w-sm text-xs leading-6 text-[#777871]">
-          Les informations saisies servent uniquement à traiter votre demande
-          de contact.
+          Les informations saisies sont utilisées pour traiter votre demande.
+          Les champs marqués d&apos;un * sont obligatoires.{" "}
+          <a
+            href="/politique-de-confidentialite"
+            className="border-b border-[#9f7b43] text-[#62635d] transition-colors hover:text-[#111719]"
+          >
+            En savoir plus sur vos données et vos droits
+          </a>
+          .
         </p>
 
         <button

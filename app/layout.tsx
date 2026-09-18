@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import Header from "@/components/Header";
+import CallButton from "@/components/CallButton";
 import Footer from "@/components/Footer";
 
 import "./globals.css";
@@ -53,7 +54,7 @@ export default function RootLayout({
         {children}
 
         <Footer />
-
+        <CallButton />
         <Analytics />
         <SpeedInsights />
       </body>

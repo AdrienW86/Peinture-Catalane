@@ -80,7 +80,7 @@ export default function Header() {
 
           <div className="hidden sm:block">
             <div className="font-serif text-xl tracking-[0.08em] text-[#f3f0e9]">
-              PEINTURE CATALANE
+              PEINTURE OCCITANE
             </div>
 
             <div className="mt-0.5 text-[8px] font-medium tracking-[0.28em] text-[#c9a66b]">

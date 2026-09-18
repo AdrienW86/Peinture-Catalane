@@ -7,14 +7,14 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact & devis peinture à Perpignan",
   description:
-    "Présentez votre projet de peinture, rénovation ou façade à Peinture Catalane à Perpignan et dans les Pyrénées-Orientales.",
+    "Présentez votre projet de peinture, rénovation ou façade à Peinture Occitane à Perpignan et dans les Pyrénées-Orientales.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Contact & devis peinture à Perpignan",
     description:
-      "Échangez avec Peinture Catalane au sujet de votre projet de peinture, rénovation ou façade dans les Pyrénées-Orientales.",
+      "Échangez avec Peinture Occitane au sujet de votre projet de peinture, rénovation ou façade dans les Pyrénées-Orientales.",
     url: "/contact",
   },
 };
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 <span className="h-px w-10 bg-[#c9a66b]" />
 
                 <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#c9a66b]">
-                  Contact · Peinture Catalane
+                  Contact · Peinture Occitane
                 </p>
               </div>
 

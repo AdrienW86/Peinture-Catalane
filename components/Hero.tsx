@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-peinture.jpg"
-          alt="Intérieur contemporain réalisé par Peinture Catalane à Perpignan"
+          alt="Intérieur contemporain réalisé par Peinture Occitane à Perpignan"
           fill
           priority
           sizes="100vw"
@@ -48,7 +48,7 @@ export default function Hero() {
 
           {/* Texte */}
           <p className="mt-8 max-w-xl text-base leading-7 text-[#d0cdc5] md:text-lg md:leading-8">
-            Peinture Catalane accompagne vos projets de peinture et de
+            Peinture Occitane accompagne vos projets de peinture et de
             rénovation à Perpignan avec un savoir-faire artisanal, des
             finitions soignées et une attention particulière aux détails.
           </p>

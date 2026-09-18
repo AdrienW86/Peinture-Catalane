@@ -49,7 +49,7 @@ export default function Expertise() {
             </h2>
 
             <p className="mt-9 max-w-2xl text-base leading-8 text-[#555650]">
-              Chez Peinture Catalane, nous accordons autant d’importance à la
+              Chez Peinture Occitane, nous accordons autant d’importance à la
               préparation des surfaces qu’à leur finition. L’objectif : obtenir
               un rendu propre, harmonieux et pensé pour durer.
             </p>
@@ -94,7 +94,7 @@ export default function Expertise() {
         <div className="grid gap-8 pt-12 md:grid-cols-12 md:pt-16">
           <div className="md:col-span-4 md:col-start-9">
             <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-[#9f7b43]">
-              Peinture Catalane
+              Peinture Occitane
             </p>
 
             <p className="mt-3 font-serif text-2xl leading-snug">

@@ -21,15 +21,15 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://peinture-catalane.fr"),
+  metadataBase: new URL("https://peinture-occitane.fr"),
 
   title: {
-    default: "Entreprise de peinture à Perpignan | Peinture Catalane",
-    template: "%s | Peinture Catalane",
+    default: "Entreprise de peinture à Perpignan | Peinture Occitane",
+    template: "%s | Peinture Occitane",
   },
 
   description:
-    "Peinture Catalane, entreprise de peinture à Perpignan spécialisée dans la peinture intérieure, extérieure et la rénovation.",
+    "Peinture Occitane, entreprise de peinture à Perpignan spécialisée dans la peinture intérieure, extérieure et la rénovation.",
 
   robots: {
     index: true,

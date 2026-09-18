@@ -64,7 +64,7 @@ export const faqs = [
   {
     question: "Intervenez-vous pour la peinture extérieure autour de Perpignan ?",
     answer:
-      "Peinture Catalane intervient à Perpignan et dans les environs. Vous pouvez nous contacter pour présenter votre projet et vérifier votre secteur.",
+      "Peinture Occitane intervient à Perpignan et dans les environs. Vous pouvez nous contacter pour présenter votre projet et vérifier votre secteur.",
   },
   {
     question: "Comment demander un devis pour mes travaux extérieurs ?",

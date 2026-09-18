@@ -11,7 +11,7 @@ export default function ProjectsHero() {
       <div className="absolute inset-0">
         <Image
           src="/images/realisations/hero-realisations.jpg"
-          alt="Intérieur aux tonalités minérales illustrant les réalisations de Peinture Catalane"
+          alt="Intérieur aux tonalités minérales illustrant les réalisations de Peinture Occitane"
           fill
           priority
           sizes="100vw"
@@ -55,7 +55,7 @@ export default function ProjectsHero() {
                 <span className="h-px w-10 bg-[#c9a66b]" />
 
                 <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#dfbf87]">
-                  Peinture Catalane · Portfolio
+                  Peinture Occitane · Portfolio
                 </p>
               </div>
 

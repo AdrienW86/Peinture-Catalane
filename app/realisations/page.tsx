@@ -11,7 +11,7 @@ import { projects } from "./data";
 export const metadata: Metadata = {
   title: "Réalisations peinture et rénovation à Perpignan",
   description:
-    "Découvrez une sélection de projets de peinture intérieure, extérieure, rénovation et façade de Peinture Catalane à Perpignan et dans les Pyrénées-Orientales.",
+    "Découvrez une sélection de projets de peinture intérieure, extérieure, rénovation et façade de Peinture Occitane à Perpignan et dans les Pyrénées-Orientales.",
 
   alternates: {
     canonical: "/realisations",

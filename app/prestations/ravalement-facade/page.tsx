@@ -17,14 +17,14 @@ import { analysisPoints, steps, faqs } from "./data";
 export const metadata: Metadata = {
   title: "Ravalement de façade à Perpignan",
   description:
-    "Ravalement de façade à Perpignan : préparation, remise en état et finition des façades avec Peinture Catalane.",
+    "Ravalement de façade à Perpignan : préparation, remise en état et finition des façades avec Peinture Occitane.",
   alternates: {
     canonical: "/prestations/ravalement-facade",
   },
   openGraph: {
-    title: "Ravalement de façade à Perpignan | Peinture Catalane",
+    title: "Ravalement de façade à Perpignan | Peinture Occitane",
     description:
-      "Découvrez l’approche de Peinture Catalane pour vos projets de ravalement de façade à Perpignan.",
+      "Découvrez l’approche de Peinture Occitane pour vos projets de ravalement de façade à Perpignan.",
     url: "/prestations/ravalement-facade",
   },
 };
@@ -36,7 +36,7 @@ export default function RavalementFacadePage() {
         eyebrow="Ravalement de façade · Perpignan"
         title="Ravalement"
         accent="de façade."
-        description="Peinture Catalane accompagne vos projets de ravalement de façade avec une attention particulière portée à l’état du support, à sa préparation et à la qualité de la finition."
+        description="Peinture Occitane accompagne vos projets de ravalement de façade avec une attention particulière portée à l’état du support, à sa préparation et à la qualité de la finition."
         image="/images/ravalement-facade-hero.jpg"
         imageAlt="Façade aux tons minéraux et à l'architecture méditerranéenne"
         breadcrumb={[

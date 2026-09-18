@@ -63,7 +63,7 @@ export const faqs = [
   {
     question: "Intervenez-vous pour les façades autour de Perpignan ?",
     answer:
-      "Peinture Catalane intervient à Perpignan et dans les environs. Vous pouvez nous contacter afin de présenter votre projet et vérifier votre secteur.",
+      "Peinture Occitane intervient à Perpignan et dans les environs. Vous pouvez nous contacter afin de présenter votre projet et vérifier votre secteur.",
   },
   {
     question: "Comment demander un devis pour un ravalement de façade ?",

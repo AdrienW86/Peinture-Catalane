@@ -17,14 +17,14 @@ import { surfaces, steps, faqs } from "./data";
 export const metadata: Metadata = {
   title: "Peinture extérieure à Perpignan",
   description:
-    "Travaux de peinture extérieure à Perpignan : façades, boiseries et surfaces extérieures avec préparation soignée des supports par Peinture Catalane.",
+    "Travaux de peinture extérieure à Perpignan : façades, boiseries et surfaces extérieures avec préparation soignée des supports par Peinture Occitane.",
   alternates: {
     canonical: "/prestations/peinture-exterieure",
   },
   openGraph: {
-    title: "Peinture extérieure à Perpignan | Peinture Catalane",
+    title: "Peinture extérieure à Perpignan | Peinture Occitane",
     description:
-      "Peinture extérieure et rénovation des surfaces à Perpignan avec Peinture Catalane.",
+      "Peinture extérieure et rénovation des surfaces à Perpignan avec Peinture Occitane.",
     url: "/prestations/peinture-exterieure",
   },
 };
@@ -36,7 +36,7 @@ export default function PeintureExterieurePage() {
         eyebrow="Peinture extérieure · Perpignan"
         title="Peinture extérieure"
         accent="à Perpignan."
-        description="Façades, boiseries et surfaces extérieures : Peinture Catalane accompagne vos projets avec une attention particulière portée à l’état des supports, à leur préparation et aux finitions."
+        description="Façades, boiseries et surfaces extérieures : Peinture Occitane accompagne vos projets avec une attention particulière portée à l’état des supports, à leur préparation et aux finitions."
         image="/images/peinture-exterieure-hero.jpg"
         imageAlt="Façade claire d'une habitation à l'architecture méditerranéenne"
         breadcrumb={[

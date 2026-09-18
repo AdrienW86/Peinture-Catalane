@@ -34,7 +34,7 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-4"
-              aria-label="Peinture Catalane - Accueil"
+              aria-label="Peinture Occitane - Accueil"
             >
               <svg
                 viewBox="0 0 48 48"
@@ -63,7 +63,7 @@ export default function Footer() {
 
               <div>
                 <p className="font-serif text-xl tracking-[0.08em]">
-                  PEINTURE CATALANE
+                  PEINTURE OCCITANE
                 </p>
 
                 <p className="mt-1 text-[8px] font-medium tracking-[0.28em] text-[#c9a66b]">
@@ -153,7 +153,7 @@ export default function Footer() {
         {/* BAS DE PAGE */}
         <div className="flex flex-col gap-5 py-7 text-[10px] text-[#666963] lg:flex-row lg:items-center lg:justify-between">
           <p>
-            © {new Date().getFullYear()} Peinture Catalane. Tous droits
+            © {new Date().getFullYear()} Peinture Occitane. Tous droits
             réservés.
           </p>
 

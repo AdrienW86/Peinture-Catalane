@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://peinture-catalane.fr";
+  const baseUrl = "https://peinture-occitane.fr";
 
   return [
     {

@@ -155,7 +155,7 @@ export async function POST(request: Request) {
               text-transform: uppercase;
             "
           >
-            Peinture Catalane
+            Peinture Occitane
           </p>
 
           <h1

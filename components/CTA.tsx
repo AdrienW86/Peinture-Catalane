@@ -105,7 +105,7 @@ export default function CTA() {
           </div>
 
           <p className="text-xs tracking-[0.08em] text-[#94958f]">
-            Peinture Catalane — Perpignan, Pyrénées-Orientales
+            Peinture Occitane — Perpignan, Pyrénées-Orientales
           </p>
         </div>
       </div>

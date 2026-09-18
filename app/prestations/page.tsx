@@ -6,7 +6,7 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Travaux de peinture à Perpignan",
   description:
-    "Découvrez les prestations de Peinture Catalane à Perpignan : peinture intérieure, peinture extérieure, rénovation et ravalement de façade.",
+    "Découvrez les prestations de Peinture Occitane à Perpignan : peinture intérieure, peinture extérieure, rénovation et ravalement de façade.",
   alternates: {
     canonical: "/prestations",
   },
@@ -72,7 +72,7 @@ export default function PrestationsPage() {
 
               <div className="md:col-span-4">
                 <p className="max-w-sm text-sm leading-7 text-[#aaa8a2] md:ml-auto">
-                  Peinture Catalane accompagne vos projets intérieurs et
+                  Peinture Occitane accompagne vos projets intérieurs et
                   extérieurs avec une attention particulière portée à la
                   préparation des surfaces et aux finitions.
                 </p>
@@ -93,7 +93,7 @@ export default function PrestationsPage() {
           <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-12 lg:px-10">
             <div className="md:col-span-4">
               <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#9f7b43]">
-                Peinture Catalane
+                Peinture Occitane
               </p>
             </div>
 

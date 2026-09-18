@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "Une réalisation de qualité et un très beau rendu final. Nous recommandons Peinture Catalane pour son sérieux et son attention aux détails.",
+      "Une réalisation de qualité et un très beau rendu final. Nous recommandons Peinture Occitane pour son sérieux et son attention aux détails.",
     author: "Prénom N.",
     location: "Perpignan",
     source: "Avis client",

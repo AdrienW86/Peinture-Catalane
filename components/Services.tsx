@@ -72,7 +72,7 @@ export default function Services() {
 
           <div className="md:col-span-4 md:col-start-9">
             <p className="max-w-md text-sm leading-7 text-[#555650] md:text-base">
-              Peinture Catalane accompagne vos projets de peinture et de
+              Peinture Occitane accompagne vos projets de peinture et de
               rénovation à Perpignan avec une exigence constante portée à la
               préparation, à l&apos;application et aux finitions.
             </p>

@@ -89,7 +89,7 @@ export const projects: Project[] = [
     seo: {
       title: "Peinture intérieure d’une villa à Perpignan",
       description:
-        "Découvrez un projet de rénovation et de peinture intérieure d’une villa à Perpignan par Peinture Catalane.",
+        "Découvrez un projet de rénovation et de peinture intérieure d’une villa à Perpignan par Peinture Occitane.",
     },
 
     featured: true,
@@ -187,7 +187,7 @@ export const projects: Project[] = [
     seo: {
       title: "Rénovation et peinture d’une maison à Saint-Estève",
       description:
-        "Découvrez un projet de rénovation intérieure et de peinture d’une maison à Saint-Estève par Peinture Catalane.",
+        "Découvrez un projet de rénovation intérieure et de peinture d’une maison à Saint-Estève par Peinture Occitane.",
     },
   },
 
@@ -233,7 +233,7 @@ export const projects: Project[] = [
     seo: {
       title: "Peinture extérieure à Canet-en-Roussillon",
       description:
-        "Découvrez un projet de peinture extérieure d’une maison à Canet-en-Roussillon par Peinture Catalane.",
+        "Découvrez un projet de peinture extérieure d’une maison à Canet-en-Roussillon par Peinture Occitane.",
     },
   },
 

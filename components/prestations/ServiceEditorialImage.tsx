@@ -11,7 +11,7 @@ export default function ServiceEditorialImage({
   src,
   alt,
   caption,
-  credit = "Peinture Catalane",
+  credit = "Peinture Occitane",
 }: ServiceEditorialImageProps) {
   return (
     <section className="bg-[#f0ede5] pb-24 md:pb-32 lg:pb-40">

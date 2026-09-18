@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Peinture Catalane — Peinture et rénovation à Perpignan";
+  "Peinture Occintane — Peinture et rénovation à Perpignan";
 
 export const size = {
   width: 1200,
@@ -44,7 +44,7 @@ export default function Image() {
             letterSpacing: "-3px",
           }}
         >
-          Peinture Catalane
+          Peinture Occitane
         </div>
 
         <div

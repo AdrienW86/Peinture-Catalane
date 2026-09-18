@@ -15,14 +15,14 @@ import { applications, steps, faqs } from "./data";
 export const metadata: Metadata = {
   title: "Peinture intérieure à Perpignan",
   description:
-    "Peinture intérieure à Perpignan : murs, plafonds, boiseries, préparation des supports et finitions soignées avec Peinture Catalane.",
+    "Peinture intérieure à Perpignan : murs, plafonds, boiseries, préparation des supports et finitions soignées avec Peinture Occitane.",
   alternates: {
     canonical: "/prestations/peinture-interieure",
   },
   openGraph: {
-    title: "Peinture intérieure à Perpignan | Peinture Catalane",
+    title: "Peinture intérieure à Perpignan | Peinture Occitane",
     description:
-      "Confiez vos travaux de peinture intérieure à Peinture Catalane à Perpignan : préparation des surfaces et finitions soignées.",
+      "Confiez vos travaux de peinture intérieure à Peinture Occitane à Perpignan : préparation des surfaces et finitions soignées.",
     url: "/prestations/peinture-interieure",
   },
 };
@@ -34,7 +34,7 @@ export default function PeintureInterieurePage() {
         eyebrow="Peinture intérieure · Perpignan"
         title="Peinture intérieure"
         accent="à Perpignan."
-        description="Murs, plafonds et boiseries : Peinture Catalane accompagne vos projets de peinture intérieure avec une attention particulière portée à la préparation des supports et aux finitions."
+        description="Murs, plafonds et boiseries : Peinture Occitane accompagne vos projets de peinture intérieure avec une attention particulière portée à la préparation des supports et aux finitions."
         image="/images/peinture-interieure-hero.jpg"
         imageAlt="Intérieur aux murs soigneusement peints dans une maison contemporaine"
         breadcrumb={[

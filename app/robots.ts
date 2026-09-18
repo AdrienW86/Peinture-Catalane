@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://peinture-occitane.fr/sitemap.xml",
+    sitemap: "https://www.peinture-occitane.fr/sitemap.xml",
   };
 }

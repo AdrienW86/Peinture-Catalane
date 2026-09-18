@@ -2,13 +2,13 @@ export default function LocalBusinessJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://peinture-occitane.fr/#business",
+    "@id": "https://www.peinture-occitane.fr/#business",
 
     name: "Peinture Occitane",
 
     legalName: "Alexandre Jacques André ROBBA",
 
-    url: "https://peinture-occitane.fr",
+    url: "https://www.peinture-occitane.fr",
 
     telephone: "+33743260451",
 
